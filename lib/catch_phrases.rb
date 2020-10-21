@@ -1,5 +1,5 @@
 $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-$phrase = "It's-a me. Mario!"
+$phrase = "It's-a me, Mario!"
 $phrase_link = "It's Dangerous To Go Alone! Take This."
 
 def mario
