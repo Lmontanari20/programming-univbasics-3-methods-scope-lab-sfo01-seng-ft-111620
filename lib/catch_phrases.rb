@@ -1,7 +1,9 @@
+$status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+$phrase = "It's-a me. Mario!"
+$phrase_link = "It's Dangerous To Go Alone! Take This."
+
 def mario
-  $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  phrase = "It's-a me. Mario!"
-  puts phrase
+  puts $phrase
 end
 
 def toadstool
@@ -9,10 +11,11 @@ def toadstool
 end
 
 def link 
-  $phrase_link = "It's Dangerous To Go Alone! Take This."
   puts $phrase_link
 end
 
 def all_phrases
-  
+  puts $phrase
+  puts $status
+  puts $phrase_link
 end
